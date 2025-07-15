@@ -26,7 +26,7 @@ endif()
 
 # Create test executable (minimal dependencies)
 add_executable(test_parser
-        test_parser.cpp
+        test/test_parser.cpp
         obj_parser.cpp
         vertex_parser.cpp
         face_parser.cpp)
