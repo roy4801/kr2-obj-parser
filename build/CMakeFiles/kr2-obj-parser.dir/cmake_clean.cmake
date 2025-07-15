@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o.d"
   "CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o"
   "CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o.d"
+  "CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o"
+  "CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o.d"
   "CMakeFiles/kr2-obj-parser.dir/main.cpp.o"
   "CMakeFiles/kr2-obj-parser.dir/main.cpp.o.d"
   "CMakeFiles/kr2-obj-parser.dir/obj_parser.cpp.o"

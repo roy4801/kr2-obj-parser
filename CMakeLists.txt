@@ -16,6 +16,7 @@ add_executable(${PROJECT_NAME}
         main.cpp
         obj_parser.cpp
 		vertex_parser.cpp
+		face_parser.cpp
 
         # Application
 		Core/Application.cpp

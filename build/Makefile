@@ -821,6 +821,30 @@ Graphics/VertexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kr2-obj-parser.dir/build.make CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.s
 .PHONY : Graphics/VertexBuffer.cpp.s
 
+face_parser.o: face_parser.cpp.o
+.PHONY : face_parser.o
+
+# target to build an object file
+face_parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kr2-obj-parser.dir/build.make CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o
+.PHONY : face_parser.cpp.o
+
+face_parser.i: face_parser.cpp.i
+.PHONY : face_parser.i
+
+# target to preprocess a source file
+face_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kr2-obj-parser.dir/build.make CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.i
+.PHONY : face_parser.cpp.i
+
+face_parser.s: face_parser.cpp.s
+.PHONY : face_parser.s
+
+# target to generate assembly for a file
+face_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kr2-obj-parser.dir/build.make CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.s
+.PHONY : face_parser.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -965,6 +989,9 @@ help:
 	@echo "... Graphics/VertexBuffer.o"
 	@echo "... Graphics/VertexBuffer.i"
 	@echo "... Graphics/VertexBuffer.s"
+	@echo "... face_parser.o"
+	@echo "... face_parser.i"
+	@echo "... face_parser.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

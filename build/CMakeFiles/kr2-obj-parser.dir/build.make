@@ -114,10 +114,24 @@ CMakeFiles/kr2-obj-parser.dir/vertex_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kr2-obj-parser.dir/vertex_parser.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/kr2-obj-parser/kr2-obj-parser/vertex_parser.cpp -o CMakeFiles/kr2-obj-parser.dir/vertex_parser.cpp.s
 
+CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o: CMakeFiles/kr2-obj-parser.dir/flags.make
+CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o: /home/runner/work/kr2-obj-parser/kr2-obj-parser/face_parser.cpp
+CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o: CMakeFiles/kr2-obj-parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o -MF CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o.d -o CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o -c /home/runner/work/kr2-obj-parser/kr2-obj-parser/face_parser.cpp
+
+CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/kr2-obj-parser/kr2-obj-parser/face_parser.cpp > CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.i
+
+CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/kr2-obj-parser/kr2-obj-parser/face_parser.cpp -o CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.s
+
 CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o: CMakeFiles/kr2-obj-parser.dir/flags.make
 CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o: /home/runner/work/kr2-obj-parser/kr2-obj-parser/Core/Application.cpp
 CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o: CMakeFiles/kr2-obj-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o -MF CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o.d -o CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o -c /home/runner/work/kr2-obj-parser/kr2-obj-parser/Core/Application.cpp
 
 CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.s: cmake_force
 CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o: CMakeFiles/kr2-obj-parser.dir/flags.make
 CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o: /home/runner/work/kr2-obj-parser/kr2-obj-parser/Core/OpenGLApplication.cpp
 CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o: CMakeFiles/kr2-obj-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o -MF CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o.d -o CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o -c /home/runner/work/kr2-obj-parser/kr2-obj-parser/Core/OpenGLApplication.cpp
 
 CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.s: cmake_force
 CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o: CMakeFiles/kr2-obj-parser.dir/flags.make
 CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o: /home/runner/work/kr2-obj-parser/kr2-obj-parser/Core/Log.cpp
 CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o: CMakeFiles/kr2-obj-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o -MF CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o.d -o CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o -c /home/runner/work/kr2-obj-parser/kr2-obj-parser/Core/Log.cpp
 
 CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.s: cmake_force
 CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o: CMakeFiles/kr2-obj-parser.dir/flags.make
 CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o: /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/VertexBuffer.cpp
 CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o: CMakeFiles/kr2-obj-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o -MF CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o.d -o CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o -c /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/VertexBuffer.cpp
 
 CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.s: cmake_force
 CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.o: CMakeFiles/kr2-obj-parser.dir/flags.make
 CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.o: /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/IndexBuffer.cpp
 CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.o: CMakeFiles/kr2-obj-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.o -MF CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.o.d -o CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.o -c /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/IndexBuffer.cpp
 
 CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/kr2-obj-parser.dir/Graphics/IndexBuffer.cpp.s: cmake_force
 CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.o: CMakeFiles/kr2-obj-parser.dir/flags.make
 CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.o: /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/Shader.cpp
 CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.o: CMakeFiles/kr2-obj-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.o -MF CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.o.d -o CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.o -c /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/Shader.cpp
 
 CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/kr2-obj-parser.dir/Graphics/Shader.cpp.s: cmake_force
 CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o: CMakeFiles/kr2-obj-parser.dir/flags.make
 CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o: /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/VertexArray.cpp
 CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o: CMakeFiles/kr2-obj-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o -MF CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o.d -o CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o -c /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/VertexArray.cpp
 
 CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.i: cmake_force
@@ -215,7 +229,7 @@ CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.s: cmake_force
 CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o: CMakeFiles/kr2-obj-parser.dir/flags.make
 CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o: /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/Texture.cpp
 CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o: CMakeFiles/kr2-obj-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o -MF CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o.d -o CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o -c /home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/Texture.cpp
 
 CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.i: cmake_force
@@ -231,6 +245,7 @@ kr2__obj__parser_OBJECTS = \
 "CMakeFiles/kr2-obj-parser.dir/main.cpp.o" \
 "CMakeFiles/kr2-obj-parser.dir/obj_parser.cpp.o" \
 "CMakeFiles/kr2-obj-parser.dir/vertex_parser.cpp.o" \
+"CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o" \
 "CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o" \
 "CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o" \
 "CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o" \
@@ -246,6 +261,7 @@ kr2__obj__parser_EXTERNAL_OBJECTS =
 kr2-obj-parser: CMakeFiles/kr2-obj-parser.dir/main.cpp.o
 kr2-obj-parser: CMakeFiles/kr2-obj-parser.dir/obj_parser.cpp.o
 kr2-obj-parser: CMakeFiles/kr2-obj-parser.dir/vertex_parser.cpp.o
+kr2-obj-parser: CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o
 kr2-obj-parser: CMakeFiles/kr2-obj-parser.dir/Core/Application.cpp.o
 kr2-obj-parser: CMakeFiles/kr2-obj-parser.dir/Core/OpenGLApplication.cpp.o
 kr2-obj-parser: CMakeFiles/kr2-obj-parser.dir/Core/Log.cpp.o
@@ -264,7 +280,7 @@ kr2-obj-parser: /usr/lib/x86_64-linux-gnu/librt.a
 kr2-obj-parser: /usr/lib/x86_64-linux-gnu/libm.so
 kr2-obj-parser: /usr/lib/x86_64-linux-gnu/libX11.so
 kr2-obj-parser: CMakeFiles/kr2-obj-parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable kr2-obj-parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/work/kr2-obj-parser/kr2-obj-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable kr2-obj-parser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kr2-obj-parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

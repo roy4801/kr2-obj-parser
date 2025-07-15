@@ -3,6 +3,7 @@ main
 
 # Buildchain
 cmake-*
+build/
 
 # Editor related
 .idea/

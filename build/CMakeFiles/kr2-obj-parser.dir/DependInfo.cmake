@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/Texture.cpp" "CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o" "gcc" "CMakeFiles/kr2-obj-parser.dir/Graphics/Texture.cpp.o.d"
   "/home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/VertexArray.cpp" "CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o" "gcc" "CMakeFiles/kr2-obj-parser.dir/Graphics/VertexArray.cpp.o.d"
   "/home/runner/work/kr2-obj-parser/kr2-obj-parser/Graphics/VertexBuffer.cpp" "CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o" "gcc" "CMakeFiles/kr2-obj-parser.dir/Graphics/VertexBuffer.cpp.o.d"
+  "/home/runner/work/kr2-obj-parser/kr2-obj-parser/face_parser.cpp" "CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o" "gcc" "CMakeFiles/kr2-obj-parser.dir/face_parser.cpp.o.d"
   "/home/runner/work/kr2-obj-parser/kr2-obj-parser/main.cpp" "CMakeFiles/kr2-obj-parser.dir/main.cpp.o" "gcc" "CMakeFiles/kr2-obj-parser.dir/main.cpp.o.d"
   "/home/runner/work/kr2-obj-parser/kr2-obj-parser/obj_parser.cpp" "CMakeFiles/kr2-obj-parser.dir/obj_parser.cpp.o" "gcc" "CMakeFiles/kr2-obj-parser.dir/obj_parser.cpp.o.d"
   "/home/runner/work/kr2-obj-parser/kr2-obj-parser/vertex_parser.cpp" "CMakeFiles/kr2-obj-parser.dir/vertex_parser.cpp.o" "gcc" "CMakeFiles/kr2-obj-parser.dir/vertex_parser.cpp.o.d"
