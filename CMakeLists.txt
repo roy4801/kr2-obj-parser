@@ -11,6 +11,9 @@ option(BUILD_GRAPHICS "Build with graphics support" ON)
 # Add googletest first
 add_subdirectory(vendor/googletest)
 
+# Include Google Test CMake module
+include(GoogleTest)
+
 # Add graphics dependencies only if enabled
 if(BUILD_GRAPHICS)
     add_subdirectory(vendor/glfw)
@@ -38,7 +41,14 @@ target_link_libraries(test_parser
 
 # Enable testing
 enable_testing()
-add_test(NAME obj_parser_tests COMMAND test_parser)
+
+# Use Google Test's automatic test discovery
+gtest_discover_tests(test_parser
+    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+    PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
+
+# Also keep the simple test for backward compatibility
+add_test(NAME all_tests COMMAND test_parser WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
 # Create main executable only if graphics are enabled
 if(BUILD_GRAPHICS)
