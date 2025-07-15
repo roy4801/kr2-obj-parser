@@ -1,0 +1,14 @@
+# Mixed faces test OBJ file
+# Tests both triangles and quads in the same file
+
+# Vertices
+v -1.0 -1.0 0.0   # Bottom left
+v 1.0 -1.0 0.0    # Bottom right
+v 1.0 1.0 0.0     # Top right
+v -1.0 1.0 0.0    # Top left
+v 0.0 2.0 0.0     # Top center
+
+# Faces
+f 1 2 3 4    # Quad face
+f 4 3 5      # Triangle face
+f 2 1 5      # Triangle face (completing the star shape)

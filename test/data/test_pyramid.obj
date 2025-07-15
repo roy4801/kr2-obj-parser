@@ -1,0 +1,30 @@
+# Pyramid test OBJ file with texture coordinates and normals
+# 5 vertices, 5 faces (4 triangles + 1 quad base)
+
+# Vertices
+v 0.0 1.0 0.0      # Top vertex
+v -1.0 -1.0 1.0    # Base vertex 1  
+v 1.0 -1.0 1.0     # Base vertex 2
+v 1.0 -1.0 -1.0    # Base vertex 3
+v -1.0 -1.0 -1.0   # Base vertex 4
+
+# Texture coordinates
+vt 0.5 1.0         # Top texture coord
+vt 0.0 0.0         # Base texture coord 1
+vt 1.0 0.0         # Base texture coord 2
+vt 1.0 1.0         # Base texture coord 3
+vt 0.0 1.0         # Base texture coord 4
+
+# Normals
+vn 0.0 0.707 0.707   # Normal for front face
+vn 0.707 0.707 0.0   # Normal for right face  
+vn 0.0 0.707 -0.707  # Normal for back face
+vn -0.707 0.707 0.0  # Normal for left face
+vn 0.0 -1.0 0.0      # Normal for base face
+
+# Faces (vertex/texture/normal indices)
+f 1/1/1 2/2/1 3/3/1
+f 1/1/2 3/3/2 4/4/2
+f 1/1/3 4/4/3 5/5/3
+f 1/1/4 5/5/4 2/2/4
+f 2/2/5 3/3/5 4/4/5 5/5/5

@@ -1,8 +1,10 @@
 # Project Settings
 main
+test_parser
 
 # Buildchain
 cmake-*
+build/
 
 # Editor related
 .idea/
@@ -16,6 +18,9 @@ cmake-*
 *.lo
 *.o
 *.obj
+
+# Exception: Allow test data OBJ files
+!test/data/*.obj
 
 # Precompiled Headers
 *.gch

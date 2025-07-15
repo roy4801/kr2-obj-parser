@@ -98,6 +98,18 @@ public:
 
 int main(int argc, char* argv[])
 {
+    // Test OBJ parser first
+    std::cout << "Testing OBJ parser with bunny.obj..." << std::endl;
+    ObjParser parser("../bunny.obj");
+    
+    if (!parser.isEmpty()) {
+        parser.PrintStatistics();
+    } else {
+        std::cout << "Failed to parse OBJ file or file is empty." << std::endl;
+    }
+    
+    // Try to run the OpenGL application
     MyApp app(argc, argv);
     app.Run();
+    return 0;
 }

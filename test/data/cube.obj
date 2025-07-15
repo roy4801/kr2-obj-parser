@@ -1,0 +1,20 @@
+# Simple cube OBJ file
+# 8 vertices, 6 faces (quads)
+
+# Vertices
+v -1.0 -1.0 -1.0  # Back bottom left
+v 1.0 -1.0 -1.0   # Back bottom right  
+v 1.0 1.0 -1.0    # Back top right
+v -1.0 1.0 -1.0   # Back top left
+v -1.0 -1.0 1.0   # Front bottom left
+v 1.0 -1.0 1.0    # Front bottom right
+v 1.0 1.0 1.0     # Front top right
+v -1.0 1.0 1.0    # Front top left
+
+# Faces (counter-clockwise)
+f 1 2 3 4    # Back face
+f 5 8 7 6    # Front face
+f 1 5 6 2    # Bottom face
+f 4 3 7 8    # Top face
+f 1 4 8 5    # Left face
+f 2 6 7 3    # Right face
