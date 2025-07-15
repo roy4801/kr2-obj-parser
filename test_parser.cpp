@@ -15,7 +15,7 @@ protected:
 
 // Test bunny.obj parsing
 TEST_F(OBJParserTest, BunnyObjParsing) {
-    ObjParser parser("bunny.obj");
+    ObjParser parser("test_data/bunny.obj");
     
     EXPECT_FALSE(parser.isEmpty()) << "Failed to parse bunny.obj or file is empty";
     
@@ -39,7 +39,7 @@ TEST_F(OBJParserTest, BunnyObjParsing) {
 
 // Test getter methods with bunny.obj
 TEST_F(OBJParserTest, GetterMethods) {
-    ObjParser parser("bunny.obj");
+    ObjParser parser("test_data/bunny.obj");
     
     ASSERT_FALSE(parser.isEmpty()) << "Failed to parse bunny.obj";
     
@@ -75,7 +75,7 @@ TEST_F(OBJParserTest, GetterMethods) {
 
 // Test pyramid.obj parsing with texture coordinates and normals
 TEST_F(OBJParserTest, PyramidObjParsing) {
-    ObjParser parser("test_pyramid.obj");
+    ObjParser parser("test_data/test_pyramid.obj");
     
     EXPECT_FALSE(parser.isEmpty()) << "Failed to parse test_pyramid.obj or file is empty";
     
@@ -104,7 +104,7 @@ TEST_F(OBJParserTest, PyramidObjParsing) {
 
 // Test face properties with texture and normal indices
 TEST_F(OBJParserTest, FacePropertiesWithTexNormals) {
-    ObjParser parser("test_pyramid.obj");
+    ObjParser parser("test_data/test_pyramid.obj");
     
     ASSERT_FALSE(parser.isEmpty()) << "Failed to parse test_pyramid.obj";
     
@@ -150,7 +150,7 @@ TEST_F(OBJParserTest, InvalidFileHandling) {
 
 // Test statistics functionality
 TEST_F(OBJParserTest, Statistics) {
-    ObjParser parser("bunny.obj");
+    ObjParser parser("test_data/bunny.obj");
     
     ASSERT_FALSE(parser.isEmpty()) << "Failed to parse bunny.obj";
     
@@ -169,7 +169,7 @@ TEST_F(OBJParserTest, Statistics) {
 
 // Test vertex constructor and methods
 TEST_F(OBJParserTest, VertexFunctionality) {
-    ObjParser parser("bunny.obj");
+    ObjParser parser("test_data/bunny.obj");
     
     ASSERT_FALSE(parser.isEmpty()) << "Failed to parse bunny.obj";
     
