@@ -1,5 +1,7 @@
 # Project Settings
 main
+test_parser
+test_pyramid.obj
 
 # Buildchain
 cmake-*

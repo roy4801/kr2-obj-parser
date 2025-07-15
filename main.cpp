@@ -102,11 +102,11 @@ int main(int argc, char* argv[])
     std::cout << "Testing OBJ parser with bunny.obj..." << std::endl;
     objParser parser("../bunny.obj");
     
-    std::cout << "Parsing results:" << std::endl;
-    std::cout << "  Vertices: " << parser.vertexes.size() << std::endl;
-    std::cout << "  Faces: " << parser.faces.size() << std::endl;
-    std::cout << "  Texture coords: " << parser.texture_coords.size() << std::endl;
-    std::cout << "  Normals: " << parser.normals.size() << std::endl;
+    if (!parser.isEmpty()) {
+        parser.printStatistics();
+    } else {
+        std::cout << "Failed to parse OBJ file or file is empty." << std::endl;
+    }
     
     // Try to run the OpenGL application
     MyApp app(argc, argv);
