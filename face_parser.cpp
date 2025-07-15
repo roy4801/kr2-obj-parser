@@ -1,14 +1,14 @@
 #include "parser.h"
 
-objParser::Face::Face() {}
+ObjParser::Face::Face() {}
 
-objParser::Face::Face(const std::vector<int>& vertices) 
+ObjParser::Face::Face(const std::vector<int>& vertices) 
     : vertex_indices(vertices) {}
 
-objParser::Face::Face(const std::vector<int>& vertices, const std::vector<int>& textures, const std::vector<int>& normals)
+ObjParser::Face::Face(const std::vector<int>& vertices, const std::vector<int>& textures, const std::vector<int>& normals)
     : vertex_indices(vertices), texture_indices(textures), normal_indices(normals) {}
 
-std::ostream& operator<<(std::ostream& os, const objParser::Face& f) {
+std::ostream& operator<<(std::ostream& os, const ObjParser::Face& f) {
     os << "f ";
     for (size_t i = 0; i < f.vertex_indices.size(); ++i) {
         if (i > 0) os << " ";

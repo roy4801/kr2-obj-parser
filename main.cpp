@@ -100,10 +100,10 @@ int main(int argc, char* argv[])
 {
     // Test OBJ parser first
     std::cout << "Testing OBJ parser with bunny.obj..." << std::endl;
-    objParser parser("../bunny.obj");
+    ObjParser parser("../bunny.obj");
     
     if (!parser.isEmpty()) {
-        parser.printStatistics();
+        parser.PrintStatistics();
     } else {
         std::cout << "Failed to parse OBJ file or file is empty." << std::endl;
     }

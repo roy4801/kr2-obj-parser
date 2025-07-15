@@ -30,10 +30,10 @@
 #include "parser.h"
 
 int main() {
-    objParser parser("model.obj");
+    ObjParser parser("model.obj");
     
     if (!parser.isEmpty()) {
-        parser.printStatistics();
+        parser.PrintStatistics();
         
         // Access parsed data
         const auto& vertices = parser.getVertices();
@@ -60,13 +60,13 @@ int main() {
 
 ## API Reference
 
-### objParser Class
-- `objParser(std::string path)` - Constructor that loads and parses OBJ file
+### ObjParser Class
+- `ObjParser(std::string path)` - Constructor that loads and parses OBJ file
 - `getVertexCount()` - Returns number of vertices
 - `getFaceCount()` - Returns number of faces
 - `getVertices()` - Returns const reference to vertices vector
 - `getFaces()` - Returns const reference to faces vector
-- `printStatistics()` - Prints detailed parsing statistics
+- `PrintStatistics()` - Prints detailed parsing statistics
 - `isEmpty()` - Checks if parsing was successful
 
 ### Vertex Struct

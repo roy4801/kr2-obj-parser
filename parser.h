@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 
-class objParser {
+class ObjParser {
 public:
 	struct Vertex {
 private:
@@ -51,11 +51,11 @@ public:
 		bool isQuad() const { return vertex_indices.size() == 4; }
 	};
 
-	objParser(std::string path);
-	~objParser();
+	ObjParser(std::string path);
+	~ObjParser();
 
-	void printVertexes();
-	void printFaces();
+	void PrintVertexes();
+	void PrintFaces();
 	
 	// Getter methods
 	size_t getVertexCount() const { return vertexes.size(); }
@@ -75,7 +75,7 @@ public:
 	bool isEmpty() const { return vertexes.empty() && faces.empty(); }
 	
 	// Statistics methods
-	void printStatistics() const;
+	void PrintStatistics() const;
 	size_t getTriangleCount() const;
 	size_t getQuadCount() const;
 
@@ -93,18 +93,18 @@ public:
 
 private:
 	// Vertex parser
-	Vertex parseVertex(std::string input);
+	Vertex ParseVertex(std::string input);
 	
 	// Face parser
-	Face parseFace(std::string input);
+	Face ParseFace(std::string input);
 	
 	// Texture coordinate parser
-	Vertex parseTextureCoord(std::string input);
+	Vertex ParseTextureCoord(std::string input);
 	
 	// Normal parser
-	Vertex parseNormal(std::string input);
+	Vertex ParseNormal(std::string input);
 
 	// Parser handler
-	void parseObjFile(std::string path);
+	void ParseObjFile(std::string path);
 	
 };
